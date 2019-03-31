@@ -1,0 +1,81 @@
+body{
+    max-width: 700px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.all {
+    display: flex;
+    width: 100%;
+}
+
+.side {
+    width: 50%;
+}
+
+.sm-box {
+    height: 200px;
+}
+.lg-box {
+    height: 300px;
+}
+.tips {
+    background: red;
+    width: 100%;
+    height: 140px;
+}
+.pic-tips {
+    width: 60px;
+    height: auto;
+    margin-right: 50%;
+    margin-left: 45%;
+}
+.sun {
+    position: relative;
+	background: lightblue;
+}
+
+
+.pic-sun {
+    width: 40px;
+    height: auto;
+    margin-right: 50%;
+    margin-left: 45%;
+}
+.heart {
+    background: green;
+}
+.pic-heart {
+    width: 40px;
+    height: auto;
+    margin-right: 50%;
+    margin-left: 45%;
+}
+.muscles {
+    background: rgb(221, 61, 221);
+}
+.pic-muscles {
+    width: 40px;
+    height: auto;
+    margin-right: 50%;
+    margin-left: 45%;
+}
+.bell {
+    background: skyblue;
+}
+.pic-bell {
+    width: 40px;
+    height: auto;
+    margin-right: 50%;
+    margin-left: 45%;
+}
+
+.book {
+    background: orange;
+}
+.pic-book {
+    width: 40px;
+    height: auto;
+    margin-right: 50%;
+    margin-left: 45%;
+}

@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(32, 32, 32);
+}
+
+.button {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 200px;
+    transition: all 0.5s;
+}
+
+#wrapper {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.border {
+    -webkit-filter: grayscale(60%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(60%);
+}
+
+.click-border {
+    background:  transparent !important;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 80px;
+}
+
+#yellow {
+    background: yellow;
+    box-shadow: 10px 10px 40px  rgb(43, 43, 0);
+}
+
+#red {
+    background: red;
+     box-shadow: 10px 10px 40px  rgb(49, 0, 0);
+}
+
+#blue {
+    background: blue;
+     box-shadow: 10px 10px 40px  rgb(0, 0, 43);
+}
+
+#green {
+    background: green;
+     box-shadow: 10px 10px 40px  rgb(0, 22, 0);
+}
